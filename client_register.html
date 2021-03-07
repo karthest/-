@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
+    <title>顾客注册</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-4 column">
+            </div>
+            <div class="col-md-4 column center-block" style="top:200px">
+                <form class="form-horizontal" role="form" action="handle_register.php" method="post">
+                    <div class="form-group">
+                         <label for="inputEmail3" class="col-sm-2 control-label">账号</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="inputEmail3" name="caccount"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                         <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword3" name="cpassword"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                         <label for="inputPassword3" class="col-sm-2 control-label">姓名</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="inputPassword3" name="cname"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                         <label for="inputPassword3" class="col-sm-2 control-label">地址</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="inputPassword3" name="caddress"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                         <label for="inputPassword3" class="col-sm-2 control-label">联系电话</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" id="inputPassword3" name="cphnumber"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                             <button type="submit" class="btn btn-default">注册成为顾客</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-4 column">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
